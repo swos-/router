@@ -1,0 +1,10 @@
+default_route:
+    url: /
+    action: Default:index
+    requirements:
+        _method: GET
+content:
+    url: /content
+    action: Default:content
+    requirements:
+        _method: GET
